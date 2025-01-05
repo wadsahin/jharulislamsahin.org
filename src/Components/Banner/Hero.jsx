@@ -4,6 +4,7 @@ import { LiaLinkedinIn } from 'react-icons/lia';
 import hero_img from "../../assets/images/profile-3.png";
 
 const Hero = () => {
+  const resumeLink = "https://drive.google.com/file/d/1Q9xpnoN1kbnCfy44xnQSb4GdrSN_9OJJ/view?usp=sharing";
   return (
     <section id="home" className="py-10">
       {/* <!-- section container --> */}
@@ -12,8 +13,7 @@ const Hero = () => {
         <div className="space-y-4">
           <p className="text-xl font-semibold">Hello, <span className="text-teal-500">I'm</span></p>
           <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight">Jharul Islam Sahin</h2>
-          <h3 className="text-2xl sm:text-3xl text-white font-bold">I'm a <span id="animation" className="text-teal-500"></span>
-          </h3>
+          <h3 className="text-2xl sm:text-3xl text-white font-bold">A Full Stack Web Developer</h3>
           <p className="text-sm text-gray-400">With knowledge in web development and design, I offer the best projects
             resulting in quality work.</p>
 
@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
           {/* <!-- btn --> */}
           <div>
-            <button className="hidden sm:flex btn btn-sm btn-warning mt-5">Download resume</button>
+            <a href={resumeLink} target="_blank" className="hidden sm:flex btn btn-sm btn-warning mt-5">Download resume</a>
           </div>
         </div>
         {/* <!-- column 2 --> */}

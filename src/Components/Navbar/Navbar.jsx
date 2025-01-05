@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const resumeLink = "https://drive.google.com/file/d/1Q9xpnoN1kbnCfy44xnQSb4GdrSN_9OJJ/view?usp=sharing";
   const navLinks = <>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/about-me">About Me</NavLink></li>
@@ -21,7 +22,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <div>
-          <button className="hidden sm:flex btn btn-sm btn-warning">Download resume</button>
+          <a href={resumeLink} target="_blank" className="hidden sm:flex btn btn-sm btn-warning">Download resume</a>
         </div>
         {/* <!-- dropdown menu --> */}
         <div className="dropdown">

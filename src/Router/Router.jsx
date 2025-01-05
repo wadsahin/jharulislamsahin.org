@@ -8,6 +8,7 @@ import AboutMe from "../Pages/About/AboutMe";
 import Skills from "../Pages/Skills/Skills";
 import Projects from "../Pages/Projects/Projects";
 import Contact from "../Pages/Contact/Contact";
+import ViewDetails from "../Components/Projects/ViewDetails/ViewDetails";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects></Projects>
+      },
+      {
+        path: "/view-details",
+        element: <ViewDetails></ViewDetails>
       },
       {
         path: "/contact",
