@@ -43,9 +43,12 @@ const Navbar = () => {
             </svg>
           </div>
           <ul tabIndex="0"
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-30 mt-3 w-52 p-2 shadow right-0 gap-2">
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-30 mt-3 w-52 p-2 shadow right-0 gap-2 text-black font-semibold">
             {navLinks}
-            <button className="sm:hidden btn btn-sm btn-warning">Download resume</button>
+            {/* <button className="sm:hidden btn btn-sm btn-warning">Download resume</button> */}
+            <div>
+              <a href={resumeLink} target="_blank" className="btn btn-sm btn-warning w-full">Download resume</a>
+            </div>
           </ul>
         </div>
       </div>

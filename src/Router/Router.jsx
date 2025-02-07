@@ -8,7 +8,10 @@ import AboutMe from "../Pages/About/AboutMe";
 import Skills from "../Pages/Skills/Skills";
 import Projects from "../Pages/Projects/Projects";
 import Contact from "../Pages/Contact/Contact";
-import ViewDetails from "../Components/Projects/ViewDetails/ViewDetails";
+import ViewDetails from "../Components/Projects/ViewDetails/ViewDetails_1";
+import ViewDetails_1 from "../Components/Projects/ViewDetails/ViewDetails_1";
+import ViewDetails_2 from "../Components/Projects/ViewDetails/ViewDetails_2";
+import ViewDetails_3 from "../Components/Projects/ViewDetails/ViewDetails_3";
 
 export const router = createBrowserRouter([
   {
@@ -33,8 +36,16 @@ export const router = createBrowserRouter([
         element: <Projects></Projects>
       },
       {
-        path: "/view-details",
-        element: <ViewDetails></ViewDetails>
+        path: "/view-details/1",
+        element: <ViewDetails_1></ViewDetails_1>
+      },
+      {
+        path: "/view-details/2",
+        element: <ViewDetails_2></ViewDetails_2>
+      },
+      {
+        path: "/view-details/3",
+        element: <ViewDetails_3></ViewDetails_3>
       },
       {
         path: "/contact",
