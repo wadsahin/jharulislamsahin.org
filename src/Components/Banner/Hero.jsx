@@ -4,7 +4,7 @@ import { LiaLinkedinIn } from 'react-icons/lia';
 import hero_img from "../../assets/images/profile-3.png";
 
 const Hero = () => {
-  const resumeLink = "https://drive.google.com/file/d/1Q9xpnoN1kbnCfy44xnQSb4GdrSN_9OJJ/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1LcabPuZUoa78SGi4jGbDl33O_dRVW04j/view?usp=sharing";
   return (
     <section id="home" className="py-10">
       {/* <!-- section container --> */}

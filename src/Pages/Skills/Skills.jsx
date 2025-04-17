@@ -14,7 +14,7 @@ const Skills = () => {
           <div className="flex gap-10 flex-wrap">
             
             <div className="w-40 p-2 text-white border border-lime-500 rounded-xl text-center">
-              <img className="mx-auto hover:scale-125 hover:duration-700 hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">JavaScript</span>
             </div>
 

@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const resumeLink = "https://drive.google.com/file/d/1Q9xpnoN1kbnCfy44xnQSb4GdrSN_9OJJ/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1LcabPuZUoa78SGi4jGbDl33O_dRVW04j/view?usp=sharing";
   const navLinks = <>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/about-me">About Me</NavLink></li>
