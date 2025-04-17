@@ -17,12 +17,14 @@ const ViewDetails_2 = () => {
           <div className="badge badge-primary badge-outline">Firebase</div>
           <div className="badge badge-primary badge-outline">Mongodb</div>
         </div>
+        <div className='text-black'>
           <h2 className="card-title text-3xl">EquiSports</h2>
-          <p className="text-lg"><span className="text-orange-600">EquiSports</span> is a online platform based on sports equipment. This is similar of e-commerce website. Where users can visit, add to cart & order sport equipments and also add, update, delete, product details. There is also authentication system included...more </p>
+          <p className="text-lg"><span className="text-orange-600">EquiSports</span> is a online platform based on sports equipment. This is similar of e-commerce website. Where users can visit, add to cart & order sport equipments and also add, update, delete, product details. There is also authentication system included. </p>
           <div className="card-actions justify-center mt-3">
             <a href="https://equisports-6c213.web.app/" target="_blank" className="btn btn-sm bg-emerald-600 text-white">Live Link</a>
             <a href="https://github.com/wadsahin/EquiSports-client" target="_blank" className="btn btn-sm bg-teal-600 text-white">Repo Link</a>
           </div>
+        </div>
       </div>
     </div>
   );
