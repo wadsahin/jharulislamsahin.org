@@ -2,14 +2,14 @@ import React from 'react';
 import project_thumb_2 from "../../../assets/projects/project_2.jpg";
 const ViewDetails_2 = () => {
   return (
-    <div className="card card-compact bg-base-100 shadow-xl my-10 w-11/12 md:w-10/12">
+    <div className="card card-compact bg-base-100 shadow-xl my-5 w-11/12 md:w-10/12 mx-auto">
       <figure>
         <img
           src={project_thumb_2}
-          className="h-full"
+          className="h-dvh"
           alt="Shoes" />
       </figure>
-      <div className="card-body">
+      <div className="card-body text-black">
         <div className="flex flex-wrap gap-3">
           <div className="badge badge-primary badge-outline">React</div>
           <div className="badge badge-primary badge-outline">Node</div>

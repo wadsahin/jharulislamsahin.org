@@ -14,17 +14,17 @@ const Skills = () => {
           <div className="flex gap-10 flex-wrap">
             
             <div className="w-40 p-2 text-white border border-lime-500 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700 hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">JavaScript</span>
             </div>
 
             <div className="w-40 p-2 text-white border border-lime-500 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">React</span>
             </div>
 
             <div className="w-40 p-2 text-white border border-lime-500 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">TailwindCSS</span>
             </div>
 
@@ -38,17 +38,17 @@ const Skills = () => {
           <div className="flex gap-10 flex-wrap">
             
             <div className="w-40 p-2 text-white border border-indigo-600 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">Node Js</span>
             </div>
 
             <div className="w-40 p-2 text-white border border-indigo-600 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">Express Js</span>
             </div>
 
             <div className="w-40 p-2 text-white border border-indigo-600 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=qc3TyHJPxEoH&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=qc3TyHJPxEoH&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">Django</span>
             </div>
           </div>
@@ -61,21 +61,21 @@ const Skills = () => {
           <div className="flex gap-10 flex-wrap">
             
             <div className="w-40 p-2 text-white border border-orange-400 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">Firebase</span>
             </div>
 
             <div className="w-40 p-2 text-white border border-orange-400 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">JWT</span>
             </div>
 
             <div className="w-40 p-2 text-white border border-orange-400 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">Git</span>
             </div>
             <div className="w-40 p-2 text-white border border-orange-400 rounded-xl text-center">
-              <img className="mx-auto" src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="" />
+              <img className="mx-auto hover:scale-125 hover:duration-700" src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="" />
               <span className="text-2xl font-bold">GitHub</span>
             </div>
 

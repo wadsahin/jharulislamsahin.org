@@ -3,14 +3,14 @@ import project_thumb_3 from "../../../assets/projects/project_3.png";
 
 const ViewDetails_3 = () => {
   return (
-    <div className="card card-compact bg-base-100 shadow-xl my-10">
+    <div className="card card-compact bg-base-100 shadow-xl my-5">
       <figure>
         <img
           src={project_thumb_3}
-          className="h-full"
+          className="h-dvh"
           alt="Shoes" />
       </figure>
-      <div className="card-body">
+      <div className="card-body text-black">
         <div className="flex flex-wrap gap-3">
           <div className="badge badge-primary badge-outline">React</div>
           <div className="badge badge-primary badge-outline">Node</div>

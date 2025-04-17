@@ -24,7 +24,7 @@ const ProjectCard = () => {
         <figure className="h-52">
           <img
             src={project_thumb_1}
-            className="h-full"
+            className="h-full hover:scale-110 hover:duration-500"
             alt="Shoes" />
         </figure>
         <div className="card-body text-black">
@@ -41,6 +41,7 @@ const ProjectCard = () => {
         <figure className="h-52">
           <img
             src={project_thumb_2}
+            className="hover:scale-110 hover:duration-500"
             alt="Shoes" />
         </figure>
         <div className="card-body text-black">
@@ -57,7 +58,7 @@ const ProjectCard = () => {
         <figure className="h-52">
           <img
             src={project_thumb_3}
-            className="h-full"
+            className="h-full hover:scale-110 hover:duration-500"
             alt="Shoes" />
         </figure>
         <div className="card-body text-black">
