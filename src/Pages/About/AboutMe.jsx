@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import about_img from "../../assets/images/profile-1.png";
 const AboutMe = () => {
   return (
@@ -11,20 +12,12 @@ const AboutMe = () => {
         <div className="space-y-4 order-1 md:order-2">
           <p className="text-xl font-semibold">My <span className="text-teal-500">Intro</span></p>
           <h2 className="text-4xl font-extrabold leading-tight">About Me</h2>
-          <p className="text-sm text-gray-400 text-">
-            <span className="text-2xl">A</span>ssalamualikum! I'm a Diploma Engineer from a Computer Science & Technology
-            background, passionate
-            about web development and modern programming. Recently, I completed my diploma where I delved into
-            Programming, Web Development, Data Structures & Algorithms, and Database Management Systems among many other
-            subjects. <br /><br />
-
-            I'm currently venturing into MERN STACK Web Development. I've already mastered HTML, CSS, Responsive Web
-            Design, and TailwindCSS, and I can confidently convert any Figma design into a web page, ensuring it is
-            responsive and user-friendly. My roadmap includes mastering Modern JavaScript, React, Redux, Next.js,
-            Node.js, Express.js, and MongoDB.
+          <p className="text-base text-gray-400 text-">
+            Hi there! My name is Jharul Islam Sahin. A results-driven Full-Stack Web Developer specializing in the MERN stack. With extensive experience in building scalable web applications, I leverage modern technologies like React, JavaScript, Node.js, Express.js, MongoDB, and Firebase authentication to craft cutting-edge solutions.<br /><br />
+            I usually work on business or corporate websites, e-commerce websites, blogs and portfolio websites, and also educational websites. My favorite project is to do custom websites with dynamic features and functionalities. My extensive experience and specialty is creating dynamic, responsive, animated, and user-friendly front-end and back-end web applications.   
           </p>
           {/* <!-- btn --> */}
-          <a className="btn hover:bg-indigo-600 bg-teal-500 text-white border-none" href="#">Contact Me</a>
+          <Link to="/contact" className="btn hover:bg-indigo-600 bg-teal-500 text-white border-none">Contact Me</Link>
         </div>
       </div>
     </section>
